@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="ClinicaOdontologica.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Clínica Odontológica">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#equipo">Nuestro Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cita">Programar Cita</button>
+    </header>
+
+    <section id="banner">
+        <h1>Bienvenido a la Clínica Odontológica</h1>
+        <p>Brindamos atención dental de calidad para toda la familia</p>
+        <!-- Aquí podrías agregar una imagen de fondo -->
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Limpieza Dental</h3>
+            <p>Descripción del servicio...</p>
+        </div>
+        <!-- Aquí puedes agregar más servicios -->
+    </section>
+
+    <section id="equipo">
+        <h2>Nuestro Equipo</h2>
+        <div class="persona">
+            <img src="dentista1.jpg" alt="Dentista 1">
+            <h3>Dr. Juan Pérez</h3>
+            <p>Odontólogo General</p>
+        </div>
+        <!-- Aquí puedes agregar más miembros del equipo -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <!-- Aquí puedes agregar más campos de formulario -->
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="info-contacto">
+            <p>Dirección: Av. Principal #123</p>
+            <p>Teléfono: 123-456-7890</p>
+            <!-- Aquí puedes agregar más información de contacto -->
+        </div>
+    </section>
+
+    <footer>
+        <ul class="redes-sociales">
+            <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+            <!-- Aquí puedes agregar más enlaces a redes sociales -->
+        </ul>
+        <p>&copy; 2024 Clínica Odontológica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
